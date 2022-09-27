@@ -18,7 +18,7 @@ def main():
     plt.title('Gráfico de linhas')
 
     for serie in valores:
-       plt.plot(serie)
+   plt.plot(serie, label='Série ' + str(i))
 
 main()
 
